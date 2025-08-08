@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 11% 15%;
 
-    --primary: 43 74% 66%;
+    --primary: 42 65% 51%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
@@ -33,7 +33,7 @@ All colors MUST be HSL.
     --destructive-foreground: 210 40% 98%;
 
     /* Custom design tokens */
-    --brand-gold: 43 74% 66%;
+    --brand-gold: 42 65% 51%;
     --brand-gold-light: 43 84% 76%;
     --text-primary: 210 11% 15%;
     --text-secondary: 215 16% 47%;
@@ -73,8 +73,8 @@ All colors MUST be HSL.
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 42 65% 51%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;

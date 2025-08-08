@@ -1,0 +1,57 @@
+import { Button } from "@/components/ui/button";
+import heroCharacter from "@/assets/images/10.png";
+
+const FirstSerivceSection = () => {
+  return (
+    <section className="w-full bg-gradient-to-br from-background to-surface-light py-16 lg:py-24">
+      <div className="container mx-auto px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          {/* Left Content */}
+          <div className="space-y-6">
+            <h1 className="text-2xl lg:text-3xl xl:text-4xl font-semibold leading-tight">
+              <span className="text-text-primary">Executive</span>{" "}
+              <span className="text-brand-gold">Coaching</span>
+            </h1>
+
+            <p className="text-lg lg:text-xl text-text-secondary leading-relaxed max-w-lg">
+              Mohamed Mohamud equips individual leaders and teams to be
+              difference-makers when the heat is on, using the evidence-based
+              techniques of executive coaching.
+            </p>
+          </div>
+
+          {/* Right Illustration */}
+          <div className="relative">
+            {/* Background shapes */}
+            <div className="absolute inset-0">
+              <div className="w-32 h-32 bg-surface-cream rounded-full absolute top-0 right-16 opacity-60"></div>
+              <div className="w-24 h-24 bg-surface-cream rounded-full absolute bottom-16 left-8 opacity-80"></div>
+              <div className="w-16 h-16 bg-brand-gold rounded-full absolute top-20 left-12 opacity-70"></div>
+              <div className="w-20 h-20 bg-surface-cream rounded-full absolute bottom-8 right-8 opacity-50"></div>
+
+              {/* Geometric shapes */}
+              <div className="absolute top-8 right-8 w-12 h-12 border-2 border-text-primary opacity-30 rotate-12">
+                <div className="w-full h-full bg-transparent border border-text-primary transform rotate-45"></div>
+              </div>
+
+              <div className="absolute bottom-20 right-20 w-8 h-8 bg-text-primary opacity-20 transform rotate-45"></div>
+            </div>
+
+            {/* Main character illustration */}
+            <div className="relative z-10 flex justify-center">
+              <div className="w-72 h-72 bg-surface-light rounded-full flex items-center justify-center shadow-lg">
+                <img
+                  src={heroCharacter}
+                  alt="Professional consultant character illustration"
+                  className="w-72 h-72 object-cover rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default FirstSerivceSection;
