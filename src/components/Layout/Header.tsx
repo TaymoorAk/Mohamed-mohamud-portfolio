@@ -8,14 +8,14 @@ const Header = () => {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-text-primary rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">SP</span>
             </div>
             <span className="text-xl font-bold text-text-primary uppercase">
               Sideways <span className="text-brand-gold">Productions</span>
             </span>
-          </div>
+          </Link>
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
