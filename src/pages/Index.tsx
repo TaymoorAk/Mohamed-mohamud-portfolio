@@ -6,7 +6,7 @@ import ClientsSection from "@/components/HomePage/ClientsSection";
 import LeadershipSections from "@/components/HomePage/LeaderShipSetion";
 import Testtimonials from "@/components/HomePage/Testimonials";
 import MeetWithShaneSection from "@/components/HomePage/MeetWithShaneSection";
-import QuickInsightsSection from "@/components/HomePage/QuickInsightsSection";
+// import QuickInsightsSection from "@/components/HomePage/QuickInsightsSection";
 import Footer from "@/components/Layout/Footer";
 
 const Index = () => {
@@ -17,10 +17,10 @@ const Index = () => {
       <PressureSection />
       <ServicesSection />
       <ClientsSection />
-      <LeadershipSections />
+      {/* <LeadershipSections /> */}
       <Testtimonials />
       <MeetWithShaneSection />
-      <QuickInsightsSection />
+      {/* <QuickInsightsSection /> */}
       <Footer />
     </div>
   );

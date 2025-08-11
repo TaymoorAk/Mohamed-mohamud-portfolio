@@ -1,5 +1,5 @@
 import Header from "@/components/Layout/Header";
-import QuickInsightsSection from "@/components/HomePage/QuickInsightsSection";
+// import QuickInsightsSection from "@/components/HomePage/QuickInsightsSection";
 import Footer from "@/components/Layout/Footer";
 import FirstSerivceSection from "@/components/Services/FirstSerivceSection";
 import CoachingSection from "@/components/Services/CoachingSection";
@@ -22,7 +22,7 @@ const Services = () => {
       <CoachingOfferSection />
       <ServicesSection />
       <ServicesFAQ />
-      <QuickInsightsSection />
+      {/* <QuickInsightsSection /> */}
       <Footer />
     </div>
   );

@@ -50,25 +50,19 @@ const ExpertHumanSection = () => {
           {/* Right Content */}
           <div className="flex-1 lg:pl-8">
             <h2 className="text-2xl lg:text-3xl xl:text-4xl font-semibold leading-tight mb-8">
-              <span className="text-primary font-medium">Expert in humans</span>{" "}
-              leading humans.
+              <span className="text-primary font-medium">Expert in </span>{" "}
+              Stories Driving Change
             </h2>
 
             <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
               <p>
-                I've spent decades as a consultant to senior-leadership teams
-                and boards of directors, much of that as a strategy developer
-                and planning facilitator. I am a big thinker, world-class leader
-                herder, outstanding steward of "where are we going, and why"
-                conversations, and an all-around standout doer.
-              </p>
-
-              <p>
-                I am a certified executive coach and certified master
-                facilitator. I'm also a former Chief Strategy Officer, former
-                COO, and career expert in strategic communications and public
-                affairs. I've spent decades as a consultant to senior-leadership
-                teams and boards of directors.
+                Mohamed is an award-winning journalist, playwright, and keynote
+                speaker whose work bridges media, art, and activism. He crafts
+                stories that challenge injustice, explore identity, and inspire
+                social action. From global stages to grassroots workshops,
+                Mohamed connects with audiences through truth and empathy. His
+                leadership in storytelling has sparked dialogue, shifted
+                perspectives, and empowered communities worldwide.
               </p>
             </div>
 

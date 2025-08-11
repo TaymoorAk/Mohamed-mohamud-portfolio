@@ -8,17 +8,19 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Content */}
           <div className="space-y-6">
-            <h1 className="text-2xl lg:text-3xl xl:text-4xl font-semibold leading-tight">
-              <span className="text-brand-gold">Leadership support</span> for{" "}
+            <h1 className="text-brand-gold text-2xl lg:text-3xl xl:text-4xl">
+              Sideways Productions – Stories That Shift Perspectives
+            </h1>
+            <h1 className="text-xl lg:text-xl xl:text-2xl font-semibold leading-tight">
               <span className="text-text-primary">
-                management teams and boards of directors
+                “Shining Light on Untold Stories.”
               </span>
             </h1>
 
             <p className="text-lg lg:text-xl text-text-secondary leading-relaxed max-w-lg">
-              Boutique coaching, consulting, facilitation, and messaging
-              solutions for business and nonprofit leaders facing severe
-              headwinds.
+              Through words, performance, and advocacy, Mohamed Mohamud
+              challenges narratives, amplifies unheard voices, and inspires
+              change.
             </p>
 
             <div className="flex items-center space-x-4 pt-4">

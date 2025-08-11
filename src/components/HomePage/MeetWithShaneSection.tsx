@@ -8,10 +8,8 @@ const MeetWithShaneSection = () => {
             {/* Left Content */}
             <div className="flex-1 lg:pr-8">
               <h2 className="text-2xl lg:text-3xl xl:text-4xl font-semibold leading-tight">
-                <span className="text-primary font-medium">
-                  Expert in humans
-                </span>{" "}
-                leading other humans
+                <span className="text-primary font-medium">Get Involved</span> /
+                Work With Mohamed
               </h2>
 
               {/* Decorative Arrow */}
@@ -38,23 +36,25 @@ const MeetWithShaneSection = () => {
 
               <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
                 <p>
-                  I help executive leaders to inspire, cultivate, and positively
-                  persuade their fellow leaders as their primary means of
-                  driving terrific business outcomes.
-                </p>
-
-                <p>
-                  I am a certified executive coach and certified master
-                  facilitator. I'm also a former Chief Strategy Officer, former
-                  COO, and career expert in strategic communications and public
-                  affairs. I've spent decades as a consultant to
-                  senior-leadership teams and boards of directors.
+                  Whether you’re looking for an impactful keynote speaker, a
+                  gripping piece of theatre, or a voice to highlight important
+                  issues, Sideways Productions delivers storytelling that moves
+                  people to action.
                 </p>
               </div>
 
-              <button className="uppercase mt-8 bg-primary text-white px-8 py-3 rounded font-medium transition-colors duration-200">
-                MEET WITH Mohamed
-              </button>
+              <p className=" text-lg mb-6 mt-2">
+                <span className="font-light">
+                  <button className="uppercase bg-primary text-white px-6 py-3 rounded font-medium transition-colors duration-200 hover:bg-primary/90 mr-3">
+                    Book Mohamed
+                  </button>
+                  or
+                  <button className="uppercase bg-primary text-white px-6 py-3 rounded font-medium transition-colors duration-200 hover:bg-primary/90 ml-3">
+                    Contact Us
+                  </button>
+                </span>{" "}
+                to start the conversation.
+              </p>
             </div>
 
             {/* Right Image */}

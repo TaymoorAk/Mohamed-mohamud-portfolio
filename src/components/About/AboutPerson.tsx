@@ -14,9 +14,12 @@ const AboutPersonSection = () => {
 
             <div className="text-gray-700 text-lg leading-relaxed">
               <p>
-                Mohamed Mohamud is a former chief strategy officer, former COO,
-                and a long-time consultant, facilitator, and executive coach for
-                leadership teams and boards of directors.
+                Mohamed Mohamud is a journalist, playwright, keynote speaker,
+                and community activist. He tells stories that illuminate truth,
+                amplify unheard voices, and inspire change. His work spans
+                investigative reporting, socially conscious theatre, and public
+                speaking. Through mentorship and workshops, he empowers others
+                to share their own narratives.
               </p>
             </div>
           </div>

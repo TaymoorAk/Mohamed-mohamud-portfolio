@@ -9,14 +9,14 @@ const FirstSerivceSection = () => {
           {/* Left Content */}
           <div className="space-y-6">
             <h1 className="text-2xl lg:text-3xl xl:text-4xl font-semibold leading-tight">
-              <span className="text-text-primary">Executive</span>{" "}
-              <span className="text-brand-gold">Coaching</span>
+              <span className="text-text-primary">Mohamed’s </span>{" "}
+              <span className="text-brand-gold">Work</span>
             </h1>
 
             <p className="text-lg lg:text-xl text-text-secondary leading-relaxed max-w-lg">
-              Mohamed Mohamud equips individual leaders and teams to be
-              difference-makers when the heat is on, using the evidence-based
-              techniques of executive coaching.
+              At Sideways Productions, every project is rooted in one belief —
+              stories can transform the way we see ourselves, each other, and
+              the world.
             </p>
           </div>
 

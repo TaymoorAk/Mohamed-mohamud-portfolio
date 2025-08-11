@@ -6,57 +6,39 @@ import {
   Puzzle,
   Megaphone,
   ClipboardList,
+  Pen,
 } from "lucide-react";
 
 const ServicesSection = () => {
   const services = [
     {
-      icon: Users,
-      title: "Executive Coaching",
-      subtitle: "For individual leadership growth",
+      icon: Pen,
+      title: "Journalism & Writing",
+      // subtitle: "For individual leadership growth",
       description:
-        "Unlock new mindsets and methods to inspire teams, equip them to lead change, and actually lead them successfully but for results.",
-      link: "#executive-coaching",
+        "Investigative features, opinion pieces, and cultural commentary that spotlight important issues.",
+      // link: "#executive-coaching",
     },
     {
       icon: Lightbulb,
-      title: "Management Consulting",
-      subtitle: "For strength-based leadership teams",
+      title: "Keynote Speaking",
+      // subtitle: "For strength-based leadership teams",
       description:
-        "Drive real-deal change in response to unavoidable organizational challenges, aligning strategy and functions for sustainable transformation.",
-      link: "#management-consulting",
+        "Powerful, thought-provoking talks for conferences, schools, and corporate events, tailored to inspire and inform.",
+      // link: "#management-consulting",
     },
     {
       icon: Shield,
-      title: "Board Consulting",
-      subtitle: "For nonprofit boards of directors",
+      title: "Theatre & Playwriting",
+      // subtitle: "For nonprofit boards of directors",
       description:
-        "Sharpen focus on these activities and areas that deliver the absolute highest value in management of the organization you govern and serve.",
-      link: "#board-consulting",
+        "Bold, socially conscious plays that challenge perceptions and open dialogue.",
     },
     {
       icon: Puzzle,
-      title: "Planning Facilitation",
-      subtitle: "For boards, coalitions, and more",
+      title: "Community Engagement",
       description:
-        "Have structured, disciplined conversations about where your organization, coalition, project, or initiative should be and, most importantly, will achieve.",
-      link: "#planning-facilitation",
-    },
-    {
-      icon: Megaphone,
-      title: "Strategic Communications",
-      subtitle: "For senior teams that need to break through",
-      description:
-        "Craft and deliver messages and narratives to favorably influence staff, board, donors, and stakeholders during change-leadership scenarios and far beyond.",
-      link: "#strategic-communications",
-    },
-    {
-      icon: ClipboardList,
-      title: "Fractional Executive",
-      subtitle: "For short-term leadership needs",
-      description:
-        "Consistent, interim, or fractional executive leadership while you find the next someone to engage easily, learn quickly and bring a facilitative leadership touch.",
-      link: "#fractional-executive",
+        "Workshops, mentorship, and activism that empower individuals and strengthen communities.",
     },
   ];
 
@@ -66,12 +48,12 @@ const ServicesSection = () => {
         {/* Section Header */}
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-2xl lg:text-3xl xl:text-4xl font-semibold text-text-primary">
-            Here's how I help.
+            What We Do at Sideways Productions
           </h2>
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
           {services.map((service, index) => (
             <div
               key={index}
@@ -93,9 +75,6 @@ const ServicesSection = () => {
                   <h3 className="text-xl font-bold text-text-primary mb-2">
                     {service.title}
                   </h3>
-                  <p className="text-sm font-medium text-brand-gold mb-3">
-                    {service.subtitle}
-                  </p>
                 </div>
 
                 <p className="text-text-secondary leading-relaxed text-sm">

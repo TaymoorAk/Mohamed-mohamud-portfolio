@@ -27,48 +27,67 @@ const PressureSection = () => {
           {/* Right Content */}
           <div className="space-y-6 order-1 lg:order-2">
             <h2 className="text-2xl lg:text-3xl xl:text-4xl font-semibold leading-tight text-text-primary">
-              Your leadership team is{" "}
-              <span className="text-brand-gold">under pressure.</span>
+              Mohamed Mohamud is a:
             </h2>
 
             {/* Pressure Points */}
-            <div className="space-y-4 pt-4">
+            <div className="space-y-4 ">
               <div className="flex items-start space-x-3">
-                <ChevronRight className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
                 <span className="text-lg text-text-primary font-medium">
-                  Economic uncertainty
-                </span>
-              </div>
-
-              <div className="flex items-start space-x-3">
-                <ChevronRight className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                <span className="text-lg text-text-primary font-medium">
-                  Political turmoil
-                </span>
-              </div>
-
-              <div className="flex items-start space-x-3">
-                <ChevronRight className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                <span className="text-lg text-text-primary font-medium">
-                  Profound pressure to adapt and innovate
+                  Journalist • Keynote Speaker • Author • Playwright • Community
+                  Activist
                 </span>
               </div>
             </div>
 
             {/* Description */}
-            <div className="space-y-4 pt-4">
+            <div className="space-y-4">
               <p className="text-lg text-text-secondary leading-relaxed">
-                Business as usual just won't cut it anymore, and you feel called
-                to lead change.{" "}
-                <span className="font-semibold text-text-primary">
-                  Good news: effective change leadership in trying times is not
-                  only possible but within your reach!
-                </span>
+                <p className="text-lg lg:text-xl text-text-secondary leading-relaxed max-w-lg">
+                  Mohamed Mohamud is a powerful storyteller whose work spans
+                  journalism, literature, theatre, and grassroots activism.
+                  Through <b>Sideways Productions</b>, he crafts compelling
+                  narratives that challenge stereotypes, explore social issues,
+                  and give a voice to communities often left unheard.
+                </p>
+                <p className="text-lg lg:text-xl text-text-secondary leading-relaxed max-w-lg">
+                  {" "}
+                  From international speaking engagements to critically
+                  acclaimed plays, Mohamed blends truth, creativity, and
+                  advocacy to inspire dialogue and action.
+                </p>
               </p>
 
               <p className="text-xl font-semibold text-text-primary pt-2">
-                I can help.
+                Key Highlights:
               </p>
+              <div className="space-y-4 pt-4">
+                <div className="flex items-start space-x-3">
+                  <ChevronRight className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
+                  <span className="text-lg text-text-primary font-medium">
+                    Published articles in leading media outlets
+                  </span>
+                </div>
+
+                <div className="flex items-start space-x-3">
+                  <ChevronRight className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
+                  <span className="text-lg text-text-primary font-medium">
+                    Acclaimed author of Book
+                  </span>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <ChevronRight className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
+                  <span className="text-lg text-text-primary font-medium">
+                    Award-winning plays performed nationally
+                  </span>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <ChevronRight className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
+                  <span className="text-lg text-text-primary font-medium">
+                    Community projects driving real-world change
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

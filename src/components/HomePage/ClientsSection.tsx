@@ -20,7 +20,7 @@ const ClientsSection = () => {
                 />
               </div>
               <h2 className="text-xl lg:text-xl xl:text-2xl font-thin text-text-primary text-center">
-                My clients typically look like this.
+                Recent Work & Projects
               </h2>
 
               {/* Decorative elements */}
@@ -36,24 +36,23 @@ const ClientsSection = () => {
               <div className="flex items-start space-x-3">
                 <ChevronRight className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
                 <span className="text-lg text-text-primary font-medium">
-                  <b>Types of businesses:</b> Small- to medium-sized businesses,
-                  typically $500M in annual revenue or less.
+                  <b>Investigative Feature:</b> [Article Title] – published in
+                  [Media Name]
                 </span>
               </div>
 
               <div className="flex items-start space-x-3">
                 <ChevronRight className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
                 <span className="text-lg text-text-primary font-medium">
-                  <b>Types of nonprofits:</b> Medium- to large-sized
-                  associations, professional societies, advocacy organizations,
-                  and charitable foundations across the U.S.
+                  <b>Stage Play: </b> [Play Title] – exploring themes of
+                  migration and identity
                 </span>
               </div>
               <div className="flex items-start space-x-3">
                 <ChevronRight className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
                 <span className="text-lg text-text-primary font-medium">
-                  <b>Who I typically support:</b> CEOs and other C-suite
-                  officers, board chairs, EVPs, VPS, and directors.
+                  <b>Keynote Address:</b> “The Power of Telling Your Story” –
+                  delivered at [Event Name]
                 </span>
               </div>
             </div>
